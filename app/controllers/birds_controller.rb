@@ -1,5 +1,9 @@
 class BirdsController < ApplicationController
 
+  def create
+    byebug
+  end
+
   # GET /birds
   def index
     birds = Bird.all
